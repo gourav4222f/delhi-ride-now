@@ -103,3 +103,11 @@
     @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg;
   }
 }
+
+/* Swiper custom styles */
+.swiper-pagination-bullet {
+  @apply !bg-muted-foreground/30 !w-2.5 !h-2.5 !opacity-100 transition-all duration-300;
+}
+.swiper-pagination-bullet-active {
+  @apply !bg-primary !w-8 !rounded-full;
+}
